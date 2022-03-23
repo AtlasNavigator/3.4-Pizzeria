@@ -2,9 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Mediocre Pizza Co.</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 </head>
 <body>
-
+    <div class="container">
+        <h1><u>Mediocre Pizza Co.</u></h1>
+        <div class="content">
+            <form>
+                <fieldset>
+                    <legend>Customer Information:</legend>
+                    <div class="row">
+                        <div>
+                            <label for="firstname">First</label>
+                            <input id="firstname" name="first_name" type="text">
+                        </div>
+                        <div>
+                            <label for="lastname">Last</label>
+                            <input id="lastname" name="last_name" type="text">
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="order">
+                    <div>
+                    <fieldset>
+                        <legend>Pizza:</legend>
+                        <div>
+                            <input type="radio" id="small" name="pizza">
+                            <label for="small">Small</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="medium" name="pizza">
+                            <label for="medium">Medium</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="large" name="pizza">
+                            <label for="large">Large</label>
+                        </div>
+                    </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Toppings:</legend>
+                            <div>
+                                <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                                <label for="pepperoni">Pepperoni</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="onions" name="onions" value="onions">
+                                <label for="onions">Onions</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="bellPepper" name="bellPepper" value="bellPepper">
+                                <label for="bellPepper">Bell Peppers</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="mushrooms" name="mushrooms" value="mushrooms">
+                                <label for="mushrooms">Mushrooms</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
