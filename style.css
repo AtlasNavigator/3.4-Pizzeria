@@ -1,9 +1,16 @@
+body {
+    background-color: aliceblue;
+}
+input {
+    color: blue;
+}
 .order {
     display: flex;
     flex-direction: row;
 }
 
 .info {
+    background: aliceblue;
     display: flex;
     flex-direction: row;
 }
