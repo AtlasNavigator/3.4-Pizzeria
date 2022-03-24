@@ -7,3 +7,8 @@
     display: flex;
     flex-direction: row;
 }
+
+.specialOrders {
+    display: flex;
+    flex-wrap: wrap;
+}
